@@ -69,6 +69,8 @@ main {
   align-items: center;
   flex-direction: column;
   margin-top: 1rem;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .hero {
@@ -169,7 +171,6 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
 }
 
 .info .info-p-big {
@@ -251,7 +252,108 @@ main {
 
 .abs-background {
   position: absolute;
-  right: 10rem;
-  bottom: -70rem;
+  top: 60rem;
+  right: 5rem;
   z-index: -1;
+}
+
+/* partners section */
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70rem;
+  margin-top: 10rem;
+}
+
+.partners .partners-p-big {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.grid-box-partners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.grid-item-partners {
+  background: rgb(65, 85, 114);
+  background: linear-gradient(
+    180deg,
+    rgba(65, 85, 114, 1) 0%,
+    rgba(27, 27, 30, 1) 100%
+  );
+  padding: 3rem;
+  border: 3px solid #415572;
+  border-radius: 4px;
+  justify-items: center;
+}
+
+.grid-item-partners p {
+  color: #999999;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  top: 180rem;
+  left: -1rem;
+}
+
+.mena-i {
+  position: absolute;
+  top: 190rem;
+  left: 20rem;
+}
+
+.near-i {
+  position: absolute;
+  top: 198.5rem;
+  left: 20rem;
+}
+
+.solana-i {
+  position: absolute;
+  top: 193.5rem;
+  left: 28rem;
+}
+
+/* join-team section */
+
+.join-team {
+  width: 70rem;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join-team .join-team-sep {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.join-team-sep p {
+  color: #e5e5e5;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.join-team .join-team-p {
+  font-size: 53px;
+  font-weight: 500;
+}
+
+.div-2 {
+  position: absolute;
+  z-index: -1;
+  top: 235rem;
+  left: 17rem;
 }
