@@ -110,7 +110,7 @@ main {
 /* About Section */
 
 .about {
-  margin-top: 20rem;
+  margin-top: 8rem;
 }
 
 .about .about-p-big {
@@ -409,6 +409,47 @@ main {
   top: 270rem;
   right: 43rem;
 }
+
+
+
+
+/* carusel */
+.owl-car{
+  height: 560px;
+}
+.owl-car .carulsel-txt{
+  position: absolute;
+  left: 3rem;
+  height: 300px;
+  width: 44%;
+  border-radius: 20px;
+  padding: 14px;
+  background-color: #ffffff ;
+  color: #141619;
+}
+.owl-car .owl-theme{
+  width: 44%;
+  position: absolute;
+  right: 0;
+
+}
+.owl-car .item{
+  margin: 0 auto;
+  height: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #f3d515;
+  color: #141619 !important;
+}
+.owl-car #img-carusel{
+  width: 100%;
+  height: 560px;
+  position: absolute;
+}
+/* carusel */
+
+
+
 
 /* footer */
 
